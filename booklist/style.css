@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+div.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sucesser,
+.error {
+    color: white;
+    padding: 5px 0 5px 0;
+}
+
+.error {
+    background-color: rgb(211, 27, 27);
+    opacity: 0.5;
+}
+
+.success {
+    background-color: rgb(15, 194, 89);
+    opacity: 0.5;
+}
+

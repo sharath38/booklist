@@ -1,0 +1,17 @@
+{
+  "name": "booklist",
+  "version": "1.0.0",
+  "description": "oops project",
+  "main": "index.html",
+  "homepage": "https://sharath38.github.io/booklist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
